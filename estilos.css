@@ -23,12 +23,13 @@ body {
     font-size: 20px;
     line-height: 30px;
     text-align: center;
+
 }
 
 .contenedor > div {
     display: block;
     padding: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     background: #2f89fc;
     box-shadow: 2px 2px 10px black;
     
