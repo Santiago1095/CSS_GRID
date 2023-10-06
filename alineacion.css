@@ -1,0 +1,41 @@
+.contenedor {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 200px);
+
+	/* Alinea Horizontalmente */
+	justify-items: center;
+	/* auto \ start \ center \ end \ stretch */
+
+	/* Alinea Verticalmente */
+	align-items: center;
+	/* auto \ start \ center \ end \ stretch */
+}
+
+.contenedor .box1 {
+	background: #ff0800;
+	justify-self: start;
+	align-self: end;
+}
+
+.contenedor .box3 {
+	background: #2bff00;
+	justify-self: center;
+	align-self: start;
+}
+
+.contenedor .box5 {
+	background: #ff8000;
+	justify-self: stretch;
+	align-self: stretch;
+}
+
+
+.contenedor .box9{
+	background: #00ffff;
+	justify-self: end;
+	align-self: center;
+}
+
+
